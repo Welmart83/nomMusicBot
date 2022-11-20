@@ -8,21 +8,21 @@ Config vars are basically the variables which configure or modify bot to functio
 
 - These are the minimum required vars need to setup to make Yukki Music Bot functional.
 
-1. `API_ID` : Get it from my.telegram.org 
-2. `API_HASH`  : Get it from my.telegram.org 
-3. `BOT_TOKEN` : Get it from [@Botfather](http://t.me/BotFather) in Telegram
-4. `MONGO_DB_URI` : Get mongo db [from here.](https://notreallyshikhar.gitbook.io/yukkimusicbot/deployment/mongodb)
-5. `LOG_GROUP_ID` : You'll need a Private Group ID for this. Supergroup Needed with id starting from -100 
-6. `MUSIC_BOT_NAME` : A name for your Music bot.
-7. `OWNER_ID` : Your Owner ID for managing your bot.
-8. `STRING_SESSION` : Pyrogram Session Needed, Generate string from [@YukkiStringBot](http://t.me/YukkiStringBot) in Telegram.
+1. `API_ID` : 15638315
+2. `API_HASH`  : 1ab900848c1e5f3529f79f729e88b621
+3. `BOT_TOKEN` : 5245012700:AAFvOT_XmlL6n75rQb8aE0b04FwNt46sqbI
+4. `MONGO_DB_URI` : 5245012700:AAFvOT_XmlL6n75rQb8aE0b04FwNt46sqbI
+5. `LOG_GROUP_ID` : -1001300787749
+6. `MUSIC_BOT_NAME` : Anon
+7. `OWNER_ID` : 2091195585
+8. `STRING_SESSION` : BQAvZk80FWUCXCjWARUi3CUaiYKXLqoTvM3nJ5nemQqxBUKI9ygjWr53e0NyPltTQLwMLxuhC4Bor36WPfXQ_iIr792d-Me6EfJAdRMlb1EawPIuzmtWKHiCazlNVyfIEXdEF_PoVz4ZFBt4pMTYdDuUU751Ni71cFSQz6nS8SkxbmjLqJaqb857Tjs8jvSe6UVMfLwI2gBaRTmGeaN_XEhTXqvUHKYsuTtIlCP3xpiYZBm5eeNRtVd1IYi0G71SbvcZj5_g-buS3uH9TWEuXMXiK2AqsiojJkzfdDlbf-GQ_12k7V9qkhXsEQrO8luGYpXqcK7ExYVnQZ24CJpsw3xhdr3mTQA 
 
 
 ## Non-Mandatory Vars
 
 - These are the extra vars for extra features inside Music Bot. You can leave non mandatory vars for now and can add them later.
 
-1. `DURATION_LIMIT` : Custom max audio(music) duration for voice chat. Default to 60 mins.
+1. `DURATION_LIMIT` : 60 mins.
 2. `SONG_DOWNLOAD_DURATION_LIMIT`  : Duration Limit for downloading Songs in MP3 or MP4 format from bot. Default to 180 mins.
 3. `VIDEO_STREAM_LIMIT` : Maximum number of video calls allowed on bot. You can later set it via /set_video_limit on telegram. Default to 3 chats.
 4. `SERVER_PLAYLIST_LIMIT` : Maximum Limit Allowed for users to save playlists on bot's server. Default to 30
