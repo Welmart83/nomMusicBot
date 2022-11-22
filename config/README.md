@@ -11,7 +11,7 @@ Config vars are basically the variables which configure or modify bot to functio
 1. `API_ID` : 15638315
 2. `API_HASH`  : 1ab900848c1e5f3529f79f729e88b621
 3. `BOT_TOKEN` : 5245012700:AAFvOT_XmlL6n75rQb8aE0b04FwNt46sqbI
-4. `MONGO_DB_URI` : 5245012700:AAFvOT_XmlL6n75rQb8aE0b04FwNt46sqbI
+4. `MONGO_DB_URI` : mongodb+srv://Botmanage:Aazidanv01@cluster0.lxy79.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
 5. `LOG_GROUP_ID` : -1001300787749
 6. `MUSIC_BOT_NAME` : Anon
 7. `OWNER_ID` : 2091195585
